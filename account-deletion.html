@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://ociydhhalsrnrahvppzh.supabase.co; form-action 'none'; base-uri 'none'; object-src 'none'">
+  <title>Видалення SkyLux ID · SkyLux NAV</title>
+  <link rel="stylesheet" href="support.css">
+  <script src="account-deletion.js" defer></script>
+</head>
+<body>
+<main>
+  <header><strong>SkyLux NAV</strong><label>Language / Мова <select id="language"><option value="uk">Українська</option><option value="ru">Русский</option><option value="en">English</option></select></label></header>
+  <h1 data-text="title">Видалення SkyLux ID</h1>
+  <p data-text="intro">Видаліть свій обліковий запис без встановлення застосунку. Потрібні підтверджена пошта та поточний пароль SkyLux ID.</p>
+  <p class="notice" data-text="impact">Дія незворотна. Спочатку експортуйте потрібні дані в застосунку.</p>
+  <noscript>Для форми потрібен JavaScript. Видалення також доступне в застосунку: SkyLux ID → Профіль → Видалити обліковий запис.</noscript>
+  <form id="deletion-form" method="post">
+    <label for="email" data-text="email">Пошта SkyLux ID</label>
+    <input id="email" name="email" type="email" autocomplete="username" maxlength="254" required>
+    <label for="password" data-text="password">Поточний пароль SkyLux ID</label>
+    <input id="password" name="password" type="password" autocomplete="current-password" maxlength="4096" required>
+    <label class="confirm"><input id="confirm" type="checkbox" required><span data-text="confirm">Розумію наслідки та хочу назавжди видалити свій SkyLux ID.</span></label>
+    <button type="submit" data-text="submit">Назавжди видалити SkyLux ID</button>
+  </form>
+  <p id="status" role="status" aria-live="polite" tabindex="-1"></p>
+  <p data-text="recovery">Якщо забули пароль, скористайтеся відновленням у застосунку.</p>
+  <footer><p data-text="privacy">Дані входу передаються лише серверу SkyLux у Supabase через HTTPS.</p></footer>
+</main>
+</body>
+</html>
