@@ -1,0 +1,136 @@
+{
+  "format": "skylux-offline-catalog-1",
+  "updatedAt": "2026-11-08T16:58:24.375379+00:00",
+  "areas": [
+    {
+      "region": "UA",
+      "state": "published",
+      "manifestUrl": "https://github.com/NovikoffArt/skylux-nav-offline/releases/download/ua-20261024-dev24-r1/manifest.json",
+      "manifestSha256": "0cfaad4606424c49742e64e8f6ddeff10759aa6205a5886c6833023142d08333",
+      "dataset": "2026-10-24",
+      "archiveBytes": 2682469164,
+      "installedBytes": 7600392203,
+      "recordCount": 2551636
+    },
+    {
+      "region": "UA-05",
+      "state": "published",
+      "manifestUrl": "https://ociydhhalsrnrahvppzh.supabase.co/storage/v1/object/public/skylux-offline/vinnytsia/2026-10-27-dev19-r2/manifest.json",
+      "manifestSha256": "f687ec6d136a78df5a9d7370403727e3d9b828d04acb5041af17c68f1437771c",
+      "dataset": "2026-10-24",
+      "archiveBytes": 106289427,
+      "installedBytes": 224605897,
+      "recordCount": 94627
+    },
+    {
+      "region": "UA-07",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-09",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-12",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-14",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-18",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-21",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-23",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-26",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-30",
+      "state": "published",
+      "manifestUrl": "https://ociydhhalsrnrahvppzh.supabase.co/storage/v1/object/public/skylux-offline/kyiv/2026-10-30-dev21-r1/manifest.json",
+      "manifestSha256": "b6884c8a134ae868037fdd014af6fd5e9c48e3209b9aee5eca6779d92a6aa4d2",
+      "dataset": "2026-10-24",
+      "archiveBytes": 97715702,
+      "installedBytes": 443125641,
+      "recordCount": 159889
+    },
+    {
+      "region": "UA-32",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-35",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-40",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-43",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-46",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-48",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-51",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-53",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-56",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-59",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-61",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-63",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-65",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-68",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-71",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-74",
+      "state": "preparing"
+    },
+    {
+      "region": "UA-77",
+      "state": "preparing"
+    }
+  ]
+}

@@ -12,7 +12,9 @@ Use **Offline maps → All Ukraine or a region → Download**. The app downloads
 
 ## Publication status
 
-This repository is being prepared. No country or regional release is published here yet. Creating this repository does not mean that a package is ready or tested on Android. Existing verified Vinnytsia and Kyiv packages remain available through the application catalog.
+The [Ukraine pre-release data package](https://github.com/NovikoffArt/skylux-nav-offline/releases/tag/ua-20261024-dev24-r1) is published: OSM dataset 2026-10-24, 2,551,636 search records, 2.68 GB download, 7.60 GB installed. All 257 uploaded asset sizes and server SHA-256 digests match the locally verified package; the manifest and first/last parts were downloaded again and checked. Android installation and road acceptance remain NOT RUN.
+
+The application catalog is [catalog.json](catalog.json). It preserves the existing verified Vinnytsia and Kyiv downloads and adds the country package. Other regional packages are not advertised until their actual publication is checked. A data package is not an APK release.
 
 ## Package format
 
