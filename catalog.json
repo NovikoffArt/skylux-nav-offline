@@ -1,6 +1,6 @@
 {
   "format": "skylux-offline-catalog-1",
-  "updatedAt": "2026-11-18T05:53:29.005745+00:00",
+  "updatedAt": "2026-11-18T06:02:10.151093+00:00",
   "areas": [
     {
       "region": "UA",
@@ -44,7 +44,13 @@
     },
     {
       "region": "UA-12",
-      "state": "preparing"
+      "state": "published",
+      "manifestUrl": "https://github.com/NovikoffArt/skylux-nav-offline/releases/download/ua12-20261024-regional-r1/manifest.json",
+      "manifestSha256": "720b7de45557fa8007885938bf4a5d38b83d0222c77512ee546094da150c74d8",
+      "dataset": "2026-10-24",
+      "archiveBytes": 232608380,
+      "installedBytes": 727261374,
+      "recordCount": 253785
     },
     {
       "region": "UA-14",
